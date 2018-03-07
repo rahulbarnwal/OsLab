@@ -25,7 +25,7 @@ class kapil
     int i=0;
     while(t.isAlive())
     {
-     System.out.print(++i+",");
+     System.out.print((++i)+",");
      try{ Thread.sleep(1000);}
      catch(Exception e){};
     }         

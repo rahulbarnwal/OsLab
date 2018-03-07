@@ -19,7 +19,7 @@ class kapil
 {
  public static void main(String k[])
  {
-  Scanner scanner = new Scanner( System.in );
+  Scanner scanner = new Scanner(System.in);
   String input=scanner.nextLine();
    
   int i=0;
@@ -30,7 +30,7 @@ class kapil
   {
    try
    { Thread.sleep(1000);
-     i++;
+     //i++;
    }
    catch(Exception e){};
   }

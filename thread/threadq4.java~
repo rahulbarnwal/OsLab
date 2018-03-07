@@ -23,13 +23,13 @@ class kapil
   while(t.isAlive())
   {
     z=scanner.nextInt();
-    System.out.print("("+2*z+") ");
+    System.out.printf("("+2*z+") ");
   }
 
   while(true)
   {   	
    z=scanner.nextInt();
-   System.out.print("("+3*z+") ");
+   System.out.printf("("+3*z+") ");
   }
  }   
 }
